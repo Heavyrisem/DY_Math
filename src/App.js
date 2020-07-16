@@ -96,6 +96,7 @@ class App extends Component {
     console.log(e.state.highlight)
     e.state.highlight_tag = document.getElementById(e.state.highlight[0] + ',' + e.state.highlight[1]);
     e.state.highlight_tag.className = "highlight";
+    document.querySelector("[id = '" + e.state.highlight[0] + ',' + e.state.highlight[1] + "']").scrollIntoView({behavior: 'smooth', block: 'center'});
   }
 
   render() {
