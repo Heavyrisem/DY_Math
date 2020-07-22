@@ -5,7 +5,7 @@ import './App.css';
 class App extends Component {
   constructor() {
     super();
-    const MAX_VERTICAL = 9.9;
+    const MAX_VERTICAL = 19.9;
 
     let horizontal = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
     let result = [];
